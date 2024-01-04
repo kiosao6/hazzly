@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+.active{
+  color: #fff;
+  /* text-decoration: underline; */
+}
+
+.swiper {
+    width: 100%;
+    /* height: 33rem; */
+    /* display: flex; */
+  }
+  
+  .swiper-slide {
+    /* text-align: center; */
+    /* font-size: 18px; */
+    background: #F8F8F8;
+    
+  
+    /* Center slide text vertically */
+    /* display: flex !important; */
+    justify-content: flex-start;
+  }
+  
+  .swiper-slide img {
+    /* display: block; */
+    width: 100%;
+    /* height: 100%; */
+    /* object-fit: cover; */
+  }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #1b1b1b !important;
+  }
+
+  /* // Grid */
+
+  
+  @media (min-width: 1024px) {
+    
+    
+    #texts{
+      display: grid;
+      grid-area: t;
+    }
+    #phone{
+      display: grid;
+      grid-area: p;
+    }
+    #badged{
+      display: flex;
+      grid-area: b;
+    }
+    #social{
+      /* display: grid; */
+      grid-area: s;
+    }
+
+    #main{
+
+      max-width: 80rem;
+      grid-template-areas: 
+        "t t t t p p"
+        "s s s s p p"
+        "b b b b p p"
+        "b b b b p p"
+        
+        
+        
+        ;
+      /* grid-template-areas:
+        "t t t t t t t p p p p p"
+        "t t t t t t t p p p p p"
+        "t t t t t t t p p p p p"
+        "t t t t t t t p p p p p"
+        "b b b b b b b p p p p p"; */
+    }
+
+  }
+  

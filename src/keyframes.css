@@ -1,0 +1,26 @@
+
+.marqueeText{
+    animation: moveText 6000ms linear infinite;
+}
+
+.star{
+    animation: girar 10s linear infinite;
+}
+
+@keyframes girar {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes moveText {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
