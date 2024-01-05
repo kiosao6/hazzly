@@ -54,7 +54,7 @@ export const AppRouter = () => {
 
 
     return <>
-        <RouterProvider basename="/hazzly" router={routes} />
+        <RouterProvider router={routes} />
     </>
     
 }
