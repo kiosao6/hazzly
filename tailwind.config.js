@@ -25,7 +25,7 @@ module.exports = {
         "gray-text": "#ADADAD"
       },
       backgroundImage: {
-        "bg-phone": "url('/src/landing/sections/section%201/images/Background.png')",
+        "bg-phone": "url('/src/images/Background.png')",
         "bg-phones": "url('/src/landing/sections/section%202/images/group6.png')",
         "bg-star": "url('/src/portraits/bgstar.png')"
       },
