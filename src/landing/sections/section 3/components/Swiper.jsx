@@ -4,13 +4,15 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import tasks from '/src/images/tasks.png'
+import swiper from '/src/images/swiper1.png'
+import notification from '/src/images/notification.png'
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import '../../../../../src/index.css';
+import '/src/index.css';
 
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
@@ -45,7 +47,7 @@ export const Swiperr = () => {
             <p className='font-normal text-gray-500 leading-6 text-sm mb-3'>
             Work together seamlessly with your team, assign tasks to team members, and communicate easily with our messaging system.</p>
           </div>
-          <img className='w-[280px] sm:h-full sm:!w-auto' src="/src/images/swiper1.png" alt="" />
+          <img className='w-[280px] sm:h-full sm:!w-auto' src={swiper} alt="" />
         </SwiperSlide>
 
         <SwiperSlide className='bg-light rounded-3xl py-8 px-8 !flex flex-col !items-start gap-3 sm:flex-row sm:justify-between'>
@@ -54,7 +56,7 @@ export const Swiperr = () => {
             <p className='font-normal text-gray-500 leading-6 text-sm mb-3'>
             Hazzly keeps you connected and informed with real-time notifications on task updates, comments, and deadlines, ensuring prompt responses for enhanced productivity, whether you're on the go or focused on other tasks.</p>
           </div>
-          <img className='w-[280px] sm:h-full sm:!w-auto' src="src/images/notification.png" alt="" />
+          <img className='w-[280px] sm:h-full sm:!w-auto' src={notification} alt="" />
         </SwiperSlide>
 
       </Swiper>

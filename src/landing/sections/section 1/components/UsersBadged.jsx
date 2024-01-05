@@ -1,6 +1,6 @@
 
 
-
+import users from '/src/images/portraits2.png'
 
 export const UsersBadged = () => {
   return (
@@ -12,7 +12,7 @@ export const UsersBadged = () => {
             </div>
             <div className="flex items-center">
                 <div className="flex bg-lila px-2 py-2 rounded-full items-center gap-4 justify-between">
-                    <img className="min-w-16 w-60" src="/src/images/portraits2.png" alt="" />
+                    <img className="min-w-16 w-60" src={users} alt="" />
                 </div>
             </div>
         </div>

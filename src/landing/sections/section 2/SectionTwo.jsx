@@ -1,6 +1,6 @@
 import { CTA } from "../../components/CTA"
 
-
+import group from '/src/images/group6.png'
 
 
 export const SectionTwo = () => {
@@ -9,7 +9,7 @@ export const SectionTwo = () => {
           <div className="md:flex md:flex-row md:justify-evenly max-w-8xl mx-auto">
             <div className="bg-[#BBBFF2] flex justify-center items-center rounded-3xl mb-8 lg:px-12">
                 {/* <div className="size-48 mx-auto bg-center bg-no-repeat bg-cover w-auto rounded-3xl"> */}
-                    <img className="w-80 mx-auto rounded-3xl sm:max-w-[20rem] md:w-auto md:max-w-[30rem] md:max-h-[30rem]" src="/src/images/group6.png" alt="" />
+                    <img className="w-80 mx-auto rounded-3xl sm:max-w-[20rem] md:w-auto md:max-w-[30rem] md:max-h-[30rem]" src={group} alt="" />
                 {/* </div> */}
             </div>
             <div className="flex flex-col mb-8 md:max-w-sm md:pl-8 lg:pl-0">
