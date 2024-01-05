@@ -50,11 +50,11 @@ export const AppRouter = () => {
                 }
             ]
         },
-    ])
+    ], { basename: "/hazzly" })
 
 
     return <>
-        <RouterProvider router={routes} />
+        <RouterProvider basename="/hazzly" router={routes} />
     </>
     
 }
