@@ -50,8 +50,9 @@ export const AppRouter = () => {
                 }
             ]
         },
-    ], { basename: "/hazzly/" })
+    ], { basename: "/hazzly/" } )
 
+    // { basename: "/hazzly/" }
 
     return <>
         <RouterProvider router={routes} />
