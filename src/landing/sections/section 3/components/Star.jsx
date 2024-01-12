@@ -1,7 +1,7 @@
 
 
 
-import '../../../../../src/keyframes.css'
+import '/src/keyframes.css'
 
 
 export const Star = () => {

@@ -16,12 +16,14 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+        'satoshi': ['Satoshi, sans-serif']
+    },
     extend: {
       colors:{
         "lila": "#c3b3ee",
         "dark": "#1b1b1b",
         "blue": "#b5cff8",
-        // "gray-text": "#919191",
         "gray-text": "#ADADAD"
       },
       backgroundImage: {

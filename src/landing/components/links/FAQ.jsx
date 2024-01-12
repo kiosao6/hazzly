@@ -1,9 +1,15 @@
 import { Accordion2 } from "../Accordion2"
+import { motion } from "framer-motion"
 
 
 export const FAQ = () => {
   return (
-    <div className="bg-dark py-16 sm:py-32">
+    <motion.div 
+        className="bg-dark my-16 sm:my-32"
+        initial= {{ opacity: 0, y: 40, scale: .95 }}
+        animate= {{ opacity: 1, y: 0, scale: 1 }}
+        exit={{opacity: 0, y: 40, scale: .95}}
+    >
       <div className="mx-auto max-w-7xl px-8 lg:px-8">
         <div className="mx-auto max-w-4xl sm:text-center">
           <h2 className="text-base font-semibold leading-7 text-lila">FAQ</h2>
@@ -15,6 +21,6 @@ export const FAQ = () => {
       <Accordion2 />
     
     
-    </div>
+    </motion.div>
   )
 }

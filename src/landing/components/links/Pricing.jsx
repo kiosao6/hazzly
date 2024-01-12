@@ -1,9 +1,14 @@
-
+import {motion} from 'framer-motion';
 
 
 export const Pricing = () => {
   return (
-          <div className="bg-dark py-16 sm:py-32">
+          <motion.div
+              className="bg-dark my-16 sm:my-32"
+              initial= {{opacity: 0, y: 40, scale: .95}}
+              animate= {{opacity: 1, y: 0, scale: 1 }}
+              exit= {{opacity: 0, y: 40, scale: .95 }}
+          >
         <div className="mx-auto max-w-7xl px-8 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
             <h2 className="text-base font-semibold leading-7 text-lila">Pricing</h2>
@@ -15,7 +20,7 @@ export const Pricing = () => {
               <h3 className="text-2xl font-bold tracking-tight text-white">Lifetime membership</h3>
               <p className="mt-6 text-base leading-7 text-gray-text"> Join us and enjoy the ease of a transparent and hassle-free experience that lasts a lifetime. We offer a comprehensive suite of features to help you stay on top of your tasks.</p>
               <div className="mt-10 flex items-center gap-x-4">
-                <h4 className="flex-none text-sm font-semibold leading-6 text-lila">What’s included</h4>
+                <h4 className="flex-none text-sm font-semibold leading-6 text-lila">What’s included with Hazzly</h4>
                 <div className="h-px flex-auto bg-gray-text rounded"></div>
               </div>
               <ul role="list" className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-text sm:grid-cols-2 sm:gap-6">
@@ -53,13 +58,13 @@ export const Pricing = () => {
                     <span className="text-5xl font-bold tracking-tight text-white">$349</span>
                     <span className="text-sm font-semibold leading-relaxed tracking-wide text-white">USD</span>
                   </p>
-                  <a href="#" className="mt-10 block w-full rounded-md bg-lila px-3 py-3 text-center text-sm font-semibold text-dark shadow-sm hover:bg-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get access</a>
+                  <button href="#" className="mt-10 block w-full rounded-md bg-lila px-3 py-3 text-center text-sm font-semibold text-dark shadow-sm hover:opacity-80 transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get access</button>
                   <p className="mt-6 text-xs leading-relaxed text-gray-text">Invoices and receipts available for easy company reimbursement</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
   )
 }

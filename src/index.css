@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #C1C1C1;
+  border-radius: 6px;
+}
 
 *{
     font-family: 'Manrope', sans-serif;
@@ -9,31 +16,19 @@
 
 .active{
   color: #fff;
-  /* text-decoration: underline; */
 }
 
 .swiper {
     width: 100%;
-    /* height: 33rem; */
-    /* display: flex; */
   }
   
   .swiper-slide {
-    /* text-align: center; */
-    /* font-size: 18px; */
     background: #F8F8F8;
-    
-  
-    /* Center slide text vertically */
-    /* display: flex !important; */
     justify-content: flex-start;
   }
   
   .swiper-slide img {
-    /* display: block; */
     width: 100%;
-    /* height: 100%; */
-    /* object-fit: cover; */
   }
   
   .swiper {
@@ -64,7 +59,6 @@
       grid-area: b;
     }
     #social{
-      /* display: grid; */
       grid-area: s;
     }
 
@@ -75,17 +69,8 @@
         "t t t t p p"
         "s s s s p p"
         "b b b b p p"
-        "b b b b p p"
-        
-        
-        
+        "b b b b p p"      
         ;
-      /* grid-template-areas:
-        "t t t t t t t p p p p p"
-        "t t t t t t t p p p p p"
-        "t t t t t t t p p p p p"
-        "t t t t t t t p p p p p"
-        "b b b b b b b p p p p p"; */
     }
 
   }

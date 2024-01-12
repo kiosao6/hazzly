@@ -1,4 +1,5 @@
 import '/src/index.css'
+
 import { Marquee } from "./components/Marquee"
 import { SectionOne } from "./sections/section 1/SectionOne"
 import { SectionTwo } from "./sections/section 2/SectionTwo"

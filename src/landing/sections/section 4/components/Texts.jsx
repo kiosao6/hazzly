@@ -1,4 +1,4 @@
-import { CTA } from "../../../components/CTA"
+import { CTA } from "/src/landing/components/CTA"
 
 
 
