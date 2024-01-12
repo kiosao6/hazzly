@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 export const FAQ = () => {
   return (
     <motion.div 
-        className="bg-dark my-16 sm:my-32"
+        className="bg-dark section my-16 sm:my-32"
         initial= {{ opacity: 0, y: 40, scale: .95 }}
         animate= {{ opacity: 1, y: 0, scale: 1 }}
         exit={{opacity: 0, y: 40, scale: .95}}

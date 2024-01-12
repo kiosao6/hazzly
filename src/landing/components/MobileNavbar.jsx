@@ -9,7 +9,7 @@ export const MobileNavbar = ({closeMobileNavbar}) => {
   return (
     <>
     
-        <nav className="bg-dark z-40 py-7 px-8 h-[80vh] flex flex-col justify-between">            
+        <nav className="bg-dark z-40 py-7 px-8 h-[70vh] flex flex-col justify-between">            
             <div className="flex flex-col gap-1">
 
                 <NavLink onClick={closeMobileNavbar} to="/" className="link flex items-center py-2 border-b border-zinc-700 justify-between text-lg text-gray-text font-medium">Home
