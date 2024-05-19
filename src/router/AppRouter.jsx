@@ -1,4 +1,4 @@
-import { Navigate, RouterProvider, createBrowserRouter, useLocation } from "react-router-dom"
+import { Navigate, RouterProvider, createBrowserRouter } from "react-router-dom"
 import { NavBar } from "../landing/components/NavBar"
 import { LandingHome } from "../landing/LandingHome"
 import { Features } from "../landing/components/links/Features"
