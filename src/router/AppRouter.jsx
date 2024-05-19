@@ -50,7 +50,7 @@ export const AppRouter = () => {
                 }
             ]
         },
-    ], { basename: "/hazzly/" } )
+    ], )
 
     // { basename: "/hazzly/" }
 
