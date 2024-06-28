@@ -1,6 +1,6 @@
 
 .marqueeText{
-    animation: moveText 6000ms linear infinite;
+    animation: moveText 18s linear infinite;
 }
 
 .star{
